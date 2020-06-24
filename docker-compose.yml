@@ -5,6 +5,8 @@ services:
     container_name: db
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
+    ports:
+      - '3308:5432'
   api:
     build: .
     container_name: api
