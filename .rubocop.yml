@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - 'bin/bundle'
+    - 'db/schema.rb'
+    - 'bin/rails'
+    - 'bin/rake'
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/channels/application_cable/connection_test.rb'
+    - 'test/test_helper.rb'
+
+Style/Documentation:
+  Enabled: false
